@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/536fe31d92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <section class="header">
+        <div class="block-line">
+             <button  name="creat" type="button" class="btn btn-light" disabled ><i class="fas fa-folder-minus menu" ></i></button>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                        <button name="btnB" type="button" class="btn btn-light font"><i class="fas fa-bold"></i></button>
+                        <button name="btnI" type="button" class="btn btn-light"><i class="fas fa-italic"></i></button>
+                        <button name="btnU" type="button" class="btn btn-light"><i class="fas fa-underline"></i></button>
+                        <button name="btnS" type="button" class="btn btn-light"><i class="fas fa-strikethrough"></i></button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button name="left" type="button" class="btn btn-light font"><i class="fas fa-align-left"></i></button>
+                    <button name="center" type="button" class="btn btn-light"><i class="fas fa-align-center"></i></button>
+                    <button name="right" type="button" class="btn btn-light"><i class="fas fa-align-right"></i></button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                       <div class="btn-group " role="group" aria-label="Basic example">
+                        <div class="dropdown">
+                          <button name="btnFontFamily" class="btn btn-secondary dropdown-toggle btn-light bod font-family"  type="button" id="dropdownMenuButtonFontFamily" data-bs-toggle="dropdown"aria-haspopup="true" aria-expanded="false" tabindex="1"><i class="fas fa-font"></i></button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="displayFontFamily">
+                                <a class="dropdown-item familySel" id="Arial" style="font-family: Arial;" href="#">Arial</a>
+                                <a class="dropdown-item familySel" id="Georgia" style="font-family: Georgia;" href="#">Georgia</a>
+                                <a class="dropdown-item familySel" id="Impact" style="font-family: Impact;" href="#">Impact</a>
+                                <a class="dropdown-item familySel" id="Tahoma" style="font-family: Tahoma;" href="#">Tahoma</a>
+                                <a class="dropdown-item familySel" id="New Roman" style="font-family: New Roman;" href="#">New Roman</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="btn-group " role="group" aria-label="Basic example" >
+                            <div class="dropdown">
+                                <button name="btnFontSize" class="btn btn-secondary dropdown-toggle btn-light radius" type="button"  data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButtonFontSize" ><i class="fas fa-text-height"></i></button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" id="12px" style="font-size: 12px" href="#">12px</a>
+                                    <a class="dropdown-item" id="14px" style="font-size: 14px" href="#">14px</a>
+                                    <a class="dropdown-item" id="16px" style="font-size: 16px" href="#">16px</a>
+                                    <a class="dropdown-item" id="18px" style="font-size: 18px" href="#">18px</a>
+                                    <a class="dropdown-item" id="20px" style="font-size: 20px" href="#">20px</a>
+                                    <a class="dropdown-item" id="22px" style="font-size: 22px" href="#">22px</a>
+                                    <a class="dropdown-item" id="25px" style="font-size: 25px" href="#">25px</a>
+                                    <a class="dropdown-item" id="30px" style="font-size: 30px" href="#">30px</a>
+                                </div>
+                              </div>
+                            </div>
+                    <button name="color" type="button" class="btn btn-light"><i class="fas fa-palette"></i></button>
+                    <button name="pictures" type="button" class="btn btn-light"><i class="far fa-image"></i></button>
+                </div>    
+                    <button name="lock" type="button" class="btn btn-light loock"><i class="fas lock fa-lock"></i></button>
+                </div>
+                <div class="block__create">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button name="open" type="button" class="btn btn-light font"><i class="fas fa-folder-open"></i></button>
+                        <button name="table" type="button" class="btn btn-light"><i class="fas fa-table"></i></button>
+                        <button name="iteamLi" type="button" class="btn btn-light"><i class="fas fa-align-left"></i></button>
+                        <button name="iteamUl" type="button" class="btn btn-light"><i class="fas fa-align-right"></i></button>
+                    </div>
+                </div>
+    </section>
+    <section class="footer">
+        <div class="display" id="box">
+            <p> УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку і ведіть пароль Admin ,Admin</p>
+            <p>УВАГА ,Щоб розблокувати 1 кнопку , нажміть на  колодку  і ведіть пароль Admin ,Admin</p>
+        </div>
+       
+
+        
+        <div class="overlay"></div>
+    </section>
+    <textarea class="monitor" name="textArea" id="" cols="30" rows="10" ></textarea>
+    <div class="overlay"></div>
+    <section class="colorText">
+        <h4>Choose text color</h4>
+        <div class="block__Color">
+            <div class="color litGrean" id="1"></div>
+            <div class="color grean" id="2"></div>
+            <div class="color parakeet" id="3"></div>
+            <div class="color shamRock"></div>
+            <div class="color litBlue"></div>
+            <div class="color blue"></div>
+            <div class="color litPurple"></div>
+            <div class="color purple"></div>
+            <div class="color blueBlack"></div>
+            <div class="color blackBlue"></div>
+            <div class="color yellow"></div>
+            <div class="color lightOrange"></div>
+            <div class="color orange"></div>
+            <div class="color lightRed"></div>
+            <div class="color redLight"></div>
+            <div class="color red"></div>
+            <div class="color white"></div>
+            <div class="color lightGray"></div>
+            <div class="color gray"></div>
+            <div class="color grayBlack"></div>
+            <div class="color black"></div>
+        </div>
+        <i class="fas fa-times cross"></i>
+    </section>
+    <section class="colorBG">
+        <h4>Choose background color or image</h4>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" id="color">Color</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="image">Image</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="files">Files</a>
+                </li>
+            </ul>
+    <div class="bgColor">
+         <div class="bg litGrean "></div>
+         <div class="bg grean"></div>
+         <div class="bg parakeet"></div>
+         <div class="bg shamRock"></div>
+         <div class="bg litBlue"></div>
+         <div class="bg blue"></div>
+         <div class="bg litPurple"></div>
+         <div class="bg purple"></div>
+         <div class="bg blueBlack"></div>
+         <div class="bg blackBlue"></div>
+         <div class="bg yellow"></div>
+         <div class="bg lightOrange"></div>
+         <div class="bg orange"></div>
+         <div class="bg lightRed"></div>
+         <div class="bg redLight"></div>
+         <div class="bg red"></div>
+         <div class="bg white"></div>
+         <div class="bg lightGray"></div>
+         <div class="bg gray"></div>
+         <div class="bg grayBlack"></div>
+         <div class="bg black"></div>
+    </div>
+    <section class="img style">
+        <div class="img__block pick1 img"></div>
+        <div class="img__block pick2 img"></div>
+        <div class="img__block pick3 img"></div>
+        <div class="img__block pick4 img"></div>
+        <div class="img__block pick5 img"></div>
+        <div class="img__block pick6 img"></div>
+        <div class="img__block pick7 img"></div>
+        <div class="img__block pick8 img"></div>
+        <div class="img__block pick9 img"></div>
+    </section>
+    <div class="custom-file browser">
+        <input name="file" type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+        <i class="fas fa-times cross"></i>
+    </section>
+    <section class="singIn">
+    <form  name="sign" class="form">
+        <h2 class="h">Sing In</h2>
+        <div class="form-group h2">
+          <input name="login" type="email" class="form-control inp" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <input name="pass" type="text" class="form-control inp" id="exampleInputPassword1">
+        </div>
+            <!-- <small class="small" id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        <button name="singIn"  type="button" class="btn btnSing btn-primary">Sing In</button>
+      </form>
+    </section>
+    <section class="iteamLi">
+        <form name="itLI" class="itLI">
+                <h2 class="oI">Creat OI</h2>
+            <div class="form-group" id="margin">
+                
+                <i class="fas fa-times cross cross1"></i>
+                <label for="disabledTextInput">Count li iteam:</label>
+                <input name="countLI" type="text" id="disabledTextInput" class="form-control liIteam ">
+            </div>
+            <div class="form-group" id="margin">
+                <label for="disabledSelect">Type mark of list</label>
+                <form name="selectLi">
+                    <select name="mark" id="disabledSelect" class="form-control" >
+                    <option id="1" selected value="" >Chose Ol type mark</option>
+                    <option id="2" value="decimal">1</option>
+                    <option id='3' value="upper-roman">I</option>
+                    <option id="4" value="lower-roman">i</option>
+                    <option id="5" value="upper-alpha">A</option>
+                    <option id="6" value="upper-latin">a</option>
+                    </select>
+            </div>
+        </form>
+            <div class="rowBtn">
+                <button name="reset" type="button" class="btn width btnOne btn-danger">Reset</button>
+                <button name="creatList" type="button" class="btn width btn-success">Create list</button>
+            </div>
+    </section>
+    <section class="iteamUl">
+        <form name="itUl" class="itUl">
+            <h2 class="oI">Creat Ul</h2>
+            <div class="form-group" id="margin">
+                <i class="fas fa-times cross cross1"></i>
+                <label for="disabledTextInput">Count li iteam:</label>
+                <input name="countUl" type="text" id="disabledTextInput" class="form-control liIteam ">
+            </div>
+            <div class="form-group" id="margin">
+                <label for="ulSelector">Type mark of list</label>
+                    <select name="creatUl" id="ulSelector" class="form-control" >
+                        <option id="1" selected value="" >Chose Ul type mark</option>
+                        <option id="2" value="circle">circle</option>
+                        <option id='3' value="disk">disk</option>
+                        <option id="4" value="square">square</option>
+                    </select>
+            </div>
+            <div class="rowBtn">
+                <button name="resetUl" type="button" class="btn width btnOne btn-danger">Reset</button>
+                <button name="creatListUl" type="button" class="btn width btn-success">Create list</button>
+            </div>
+        </form>
+    </section>
+   <section class="tableNew">
+        <h2 class="oI">Creat Table</h2>
+        <form name="table" class="creatTable">
+            
+            <div class="colum">
+                <div class="form-group widthTable" id="margin">
+                    <i class="fas fa-times cross cross1"></i>
+                    <label for="table">Count TR:</label>
+                    <input name="countTr" type="text" id="table" class="form-control liIteam ">
+                </div>
+                <div class="form-group widthTable" id="margin">
+                    <i class="fas fa-times cross cross1"></i>
+                    <label for="table">Width of TD:</label>
+                    <input name="widthTr" type="text" id="table" class="form-control liIteam ">
+                </div>
+                <div class="form-group widthTable" id="margin">
+                    <i class="fas fa-times cross cross1"></i>
+                    <label for="table">Width of border:</label>
+                    <input name="widthborder" type="text" id="table" class="form-control liIteam ">
+                </div>
+            </div>
+            <div class="colum">
+                <div class="form-group widthTable" id="margin">
+                    <i class="fas fa-times cross cross1"></i>
+                    <label for="table">Count TD:</label>
+                    <input name="countTd" type="text" id="table" class="form-control liIteam ">
+                </div>
+                <div class="form-group widthTable" id="margin">
+                    <i class="fas fa-times cross cross1"></i>
+                    <label for="table">Height of TD:</label>
+                    <input name="heightTd" type="text" id="table" class="form-control liIteam ">
+                </div>
+                <div class="rowTable">
+                    <div class="form-group tabwiht" id="margin">
+                        <label for="styleBoder">Style of boder:</label>
+                            <select name="styleBoder" id="styleBoder" class="form-control" >
+                                <option id="1" selected value="" >Chose style</option>
+                                <option id="2" value="dotted">dotted</option>
+                                <option id='3' value="dashed">dashed</option>
+                                <option id="4" value="solid">solid</option>
+                                <option id="4" value="double">double</option>
+                                <option id="4" value="groove">groove</option>
+                                <option id="4" value="ridge">ridge</option>
+                                <option id="4" value="inset">inset</option>
+                                <option id="4" value="outset">outset</option>
+                            </select>
+                </div>
+                    <div class="form-group tabwiht" id="margin">
+                        <label for="colorBorder">Color of border:</label>
+                            <select name="colorBorder" id="colorBorder" class="form-control" >
+                                <option id="1" selected value="" >Chose of color</option>
+                                <option id="2" value="black">black</option>
+                                <option id='3' value="red">red</option>
+                                <option id="4" value="green">green</option>
+                                <option id="4" value="blue">blue</option>
+                                <option id="4" value="yellow">yellow</option>
+                                <option id="4" value="white">white</option>
+                                <option id="4" value="gray">gray</option>
+                                <option id="4" value="pink">pink</option>
+                            </select>
+                    </div>
+                </div>
+            </div> 
+          
+           
+        </form> 
+        <div class="rowBtn">
+            <button name="resetTable" type="button" class="btn width btnOne btn-danger">Reset</button>
+            <button name="creatTable" type="button" class="btn width btn-success">Create list</button>
+        </div>
+   </section> 
+    <script src="main.js"></script>
+</body>
+</html>

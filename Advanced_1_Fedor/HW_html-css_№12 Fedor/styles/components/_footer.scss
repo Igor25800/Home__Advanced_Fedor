@@ -1,0 +1,79 @@
+.footer_text {
+    width: 100%;
+    height: 20rem;
+    
+    @include centerX;
+
+}
+
+hr {
+    border: 1px solid #ff4e50;
+}
+
+.footer__text {
+    width: 50%;
+    height: 13rem;
+ 
+    padding: 27px 0 0 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: $mainbetven;
+}
+
+
+.footer__left {
+    
+    width: 58%;
+  
+    display: flex;
+    justify-content: $mainbetven;
+    overflow: hidden;
+}
+
+.footer__rigth {
+    width: 20%;
+    
+}
+
+li  {
+    list-style-type:none ;
+    margin-bottom: 5px;
+    color: #999999;
+    font-size: 14px;
+    @include Light;
+}
+.Company_text {
+    margin-bottom: 20px;
+}
+
+.DREAMSHARE {
+    color: #FF4E50;
+    font-size: 16px;
+    @include Regular;
+}
+.Company {
+    font-size: 14px;
+    color: #444444;
+    @include bolt;
+}
+
+.DESIGNED {
+    color: #CCCCCC;
+    font-size: 10px;
+    @include bolt;
+}
+
+.footer__rigth {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.img__DESIGNED {
+    width: 100px;
+    height: 24px;
+    background-size: 100%;
+    background-image: url(Acert/Img/Bitmap.png);
+    
+}
