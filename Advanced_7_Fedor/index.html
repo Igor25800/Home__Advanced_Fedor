@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/536fe31d92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="body">
+ 
+    <form name="form">
+        <div class="col-auto block">
+            <input name="film" type="search" class="form-control input" id="inputPassword2" placeholder="Write movie name">
+           
+            <select name="select" id="label" class="form-select" aria-label="Default select example">
+              <option selected>Years Film</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+            </select>
+            <select name="selectSerial" id="label" class="form-select" aria-label="Default select example">
+              <option value="movie">Фильми</option>
+              <option value="series">Сериали</option>
+            </select>
+            <button name="btn" type="button" class="btn btn-success mb-3">Search</button>
+        </div>
+     </form>
+     <div class="main">
+      <div class ='img'> </div>
+     </div>
+     <div class="overlay"></div>
+     <div class="detali">
+         <div class="bdr"></div>
+     </div>
+     <i class="fas fa-times" id="password"></i>
+     <div class="modal" tabindex="-1">
+        <div class="overlay"></div>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header header" style="height: 38px">
+              <h5 class="modal-title"></h5>
+                <span class="cross" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <b class="p">Ведіть назву фільма спочатку будь-ласка</b>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+      </div>
+  </section>
+  
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
